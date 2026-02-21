@@ -835,3 +835,39 @@ footer{
     color: black;
 }
 
+.info-right{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-right-top{
+    display: flex;
+    flex-direction: column;
+}
+.info-right-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.info-right span{
+    position: relative;
+    cursor: pointer;
+    color: black;
+    font-family: mainfont2;
+    font-size: 20px;
+    overflow: hidden;
+}
+.info-right span::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, black ,rgb(0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+.info-right span:hover::after{
+width: 100%;
+}
