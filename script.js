@@ -7,11 +7,10 @@ function raf(time) {
 
 requestAnimationFrame(raf);
 
-
-
 let naving = document.querySelector("nav")
 
 let lastScrollY = window.scrollY;
+console.log(lastScrollY);
 
 window.addEventListener("scroll", () => {
   const currentScrollY = window.scrollY;

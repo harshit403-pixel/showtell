@@ -306,29 +306,6 @@ nav #logo {
     opacity: 1;
 }
 
-/* responsive for mbile */
-@media (max-width: 780px) {
-
-    .inner-nav>.downbtn:not(:last-child) {
-        display: none;
-    }
-
-    nav {
-        padding: 1rem;
-        height: auto;
-    }
-
-    .downbtn {
-        width: 140px;
-        height: 56px;
-    }
-
-    #logo {
-        width: 48px;
-        height: 48px;
-    }
-
-}
 
 .section1 {
     height: 330%;
@@ -505,180 +482,6 @@ nav #logo {
 .qr:hover p {
     transform: translateX(-110%);
 }
-
-
-@media (max-width: 1024px) {
-    .section1 {
-        height: 350%;
-    }
-
-    .section1part2 {
-        padding: 6rem 3rem;
-    }
-
-    .letterS,
-    .letterU,
-    .letterH {
-        height: 320px;
-    }
-
-    .letterL {
-        height: 280px;
-    }
-
-    .hero-head p {
-        font-size: 48px;
-    }
-
-    .download1 {
-        font-size: 9rem;
-    }
-
-    .section1part3 {
-        padding-top: 20rem;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .section1 {
-        height: 420%;
-        border-radius: 20px;
-    }
-
-    .hero-head {
-        padding-top: 5rem;
-    }
-
-    .section1part2 {
-        padding: 4rem 2rem;
-        flex-direction: column;
-    }
-
-    .section1part2 video {
-        height: 70%;
-        width: 100%;
-    }
-
-    .letterS,
-    .letterU,
-    .letterH {
-        height: 280px;
-    }
-
-    .letterL {
-        height: 240px;
-    }
-
-    .hero-head p {
-        font-size: 36px;
-    }
-
-    .rocket,
-    .coin,
-    .smiley,
-    .wallet {
-        display: none;
-    }
-
-    .download1 {
-        font-size: 6rem;
-        margin-top: -50px;
-    }
-
-    .section1part3 {
-        padding-top: 15rem;
-    }
-
-    .qr {
-        width: 180px;
-        height: 80px;
-    }
-
-    .qr-img {
-        width: 35%;
-    }
-
-    .qr p {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 480px) {
-    .section1 {
-        height: 500%;
-        border-radius: 15px;
-        margin-bottom: -50px;
-    }
-
-    .hero-head {
-        padding-top: 3rem;
-    }
-
-    .section1part2 {
-        padding: 2rem 1rem;
-    }
-
-    .section1part2 video {
-        height: 50%;
-    }
-
-    .letterS,
-    .letterU,
-    .letterH {
-        height: 220px;
-    }
-
-    .letterL {
-        height: 180px;
-    }
-
-    .hero-head p {
-        font-size: 28px;
-    }
-
-    .download1 {
-        font-size: 4rem;
-        margin-top: -30px;
-    }
-
-    .italic {
-        line-height: 0.3;
-    }
-
-    .section1part3 {
-        padding-top: 10rem;
-    }
-
-    .margin {
-        margin-left: -30px;
-        margin-right: -30px;
-    }
-
-    .qr {
-        width: 150px;
-        height: 70px;
-        border-radius: 8px;
-    }
-
-    .qr-img {
-        width: 30%;
-        border-radius: 3px;
-    }
-
-    .qr p {
-        font-size: 12px;
-    }
-
-    .qr:hover .qr-img {
-        transform: translateX(110%);
-    }
-
-    .qr:hover p {
-        transform: translateX(-90%);
-    }
-}
-
 
 
 
@@ -870,4 +673,369 @@ footer{
 }
 .info-right span:hover::after{
 width: 100%;
+}
+
+
+/* ===================== TABLET (max-width: 1024px) ===================== */
+@media (max-width: 1024px) {
+
+    nav {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .inner-nav {
+        flex-wrap: wrap;
+        gap: 4px;
+        justify-content: flex-end;
+    }
+
+    .downbtn {
+        width: 120px;
+        height: 70px;
+    }
+
+    #launch-btn, #launch-btn2,
+    .white-btn, .whitebtn-2 {
+        padding: 0px 16px;
+        height: 46px;
+        font-size: 12px;
+    }
+
+    .letterS { height: 280px; }
+    .letterL { height: 250px; }
+    .letterU { height: 280px; }
+    .letterH { height: 280px; }
+
+    .hero-head p {
+        font-size: 40px;
+    }
+
+    .download1 {
+        font-size: 7rem;
+    }
+
+    .section1part2 {
+        padding: 4rem 2rem;
+    }
+
+    .opportunities {
+        padding: 30px 30px;
+        gap: 20px;
+    }
+
+    .op-left, .op-left2, .op-left3 {
+        width: 45%;
+    }
+
+    .op-right {
+        width: 50%;
+    }
+
+    .op-right h1 {
+        font-size: 2rem;
+    }
+
+    .op-right p {
+        font-size: 1.2rem;
+    }
+
+    .section2 h1 {
+        font-size: 50px;
+    }
+
+    .foot-info {
+        width: 68%;
+    }
+
+    .info-left h2 {
+        font-size: 2.8rem;
+    }
+
+    .socials svg {
+        height: 130px;
+        width: 130px;
+        padding: 35px;
+    }
+}
+
+/* ===================== MOBILE (max-width: 768px) ===================== */
+@media (max-width: 768px) {
+
+    /* NAV — only logo + launch app */
+    nav {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .inner-nav .downbtn:not(:last-child) {
+        display: none;
+    }
+
+    #launch-btn, #launch-btn2 {
+        padding: 0px 20px;
+        height: 46px;
+        font-size: 12px;
+    }
+
+    /* HIDE ALL LOTTIE + FLOATING ICONS */
+    lottie-player {
+        display: none !important;
+    }
+
+    .wallet, .smiley, .rocket, .coin {
+        display: none;
+    }
+
+    /* SECTION 1 */
+    .section1 {
+        height: auto;
+        border-radius: 24px;
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+
+    .section1bg {
+        height: auto;
+        background-image: none;
+        background-color: rgb(219, 238, 255);
+    }
+
+    /* HERO HEAD */
+    .hero-head {
+        padding-top: 7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 16px;
+    }
+
+    .hero-head span {
+        gap: 2px;
+        flex-wrap: nowrap;
+    }
+
+    /* SLUSH LETTERS — stay large */
+    .letterS { height: 120px; }
+    .letterL { height: 108px; }
+    .letterU { height: 120px; }
+    .letterH { height: 120px; }
+
+    .hero-head p {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* HEAD BUTTONS */
+    .head-btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .head-btns .downbtn {
+        width: 220px !important;
+        height: 60px;
+    }
+
+    .white-btn, .whitebtn-2 {
+        padding: 0px 16px;
+        height: 44px;
+        font-size: 11px;
+    }
+
+    /* VIDEO */
+    .section1part2 {
+        padding: 1.5rem 1rem;
+    }
+
+    .section1part2 video {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    /* BIG DOWNLOAD TEXT */
+    .section1part3 {
+        padding-top: 2rem;
+    }
+
+    .download1 {
+        font-size: 2.8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 1.1;
+        margin-top: 0;
+        gap: 8px;
+        padding: 0 10px;
+    }
+
+    .margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* QR — fixed absolute inner layout */
+    .qr {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 72px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .qr-img {
+        position: absolute;
+        left: 5px;
+        width: 40%;
+        height: 85%;
+    }
+
+    .qr p {
+        position: absolute;
+        right: 16px;
+        font-size: 13px;
+    }
+
+    /* SECTION 2 */
+    .section2 {
+        border-radius: 24px;
+        margin-top: 16px;
+        padding-bottom: 0;
+    }
+
+    .section2 h1 {
+        font-size: 28px;
+        padding: 0 1.5rem;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    /* OPPORTUNITIES — even spacing */
+@media (max-width: 768px) {
+
+    .opportunities {
+        height: fit-content;
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+        margin-bottom: 0;
+    }
+
+    .opportunities + .opportunities {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /* KILL the negative margin from base CSS */
+    .op-right {
+        width: 100%;
+        margin-top: 0 !important;
+        padding: 0;
+    }
+
+    .op-left,
+    .op-left2,
+    .op-left3 {
+        width: 100%;
+        height: 220px;
+        min-height: 220px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border-bottom: none;
+    }
+
+    /* Fix broken font-size: 200 from base CSS */
+    .op-right h1 {
+        font-size: 1.6rem !important;
+        line-height: 1.15;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .op-right p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 16px;
+    }
+
+    /* keep all rows same direction */
+    .opportunities:nth-child(odd),
+    .opportunities:nth-child(even) {
+        flex-direction: column;
+    }
+}
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .social-top, .social-down {
+        display: flex;
+        gap: 6px;
+    }
+
+    .socials svg {
+        height: 65px;
+        width: 65px;
+        padding: 16px;
+        margin: 2px;
+    }
+
+    .foot-info {
+        width: 100%;
+        flex-direction: column;
+        gap: 24px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .info-left h2 {
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+
+    .info-left p {
+        font-size: 13px;
+        margin-top: 12px;
+    }
+
+    .info-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .info-right span {
+        font-size: 13px;
+    }
+}
+
+/* ===================== VERY SMALL (max-width: 400px) ===================== */
+@media (max-width: 400px) {
+
+    .letterS { height: 90px; }
+    .letterL { height: 82px; }
+    .letterU { height: 90px; }
+    .letterH { height: 90px; }
+
+    .download1 {
+        font-size: 2.2rem;
+    }
 }
