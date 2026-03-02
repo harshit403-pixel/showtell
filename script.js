@@ -25,4 +25,4 @@ window.addEventListener("scroll", () => {
   }
 
   lastScrollY = currentScrollY;
-});
+}); 
